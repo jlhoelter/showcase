@@ -1,4 +1,4 @@
-set PROJECT_ROOT=%~dp0
+﻿set PROJECT_ROOT=%~dp0
 echo %PROJECT_ROOT%
 call %PROJECT_ROOT%..\..\env.bat
 call mvn clean package
